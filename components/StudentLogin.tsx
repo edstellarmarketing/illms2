@@ -1,11 +1,6 @@
-import { useState } from 'react';
-import { supabase } from '../lib/supabase';
-import { Button } from './ui/button';
-import { Input } from './ui/input';
-import { Label } from './ui/label';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from './ui/tabs';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 type StudentLoginProps = {
   onLogin: (studentId: string, studentName: string) => void;

@@ -1,9 +1,6 @@
-import { useState, useEffect } from 'react';
-import { supabase, Resource } from '../lib/supabase';
-import { Button } from './ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
 import { FileText, LogOut, Download } from 'lucide-react';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 type StudentDashboardProps = {
   studentName: string;
